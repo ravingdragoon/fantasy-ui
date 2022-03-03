@@ -1,5 +1,5 @@
 /* #region General UI */
-
+@import "systems/dnd5e.css";
 
 /* #region Scene Control (left side) Buttons */
 
@@ -653,6 +653,7 @@ li.folder>.folder-header .create-entity {
 }
 
 
+
 /* #endregion */
 
 
@@ -727,3 +728,12 @@ li.compendium-folder > .compendium-folder-header .create-entity-c {
 margin-top: 7px;
 }
 /* #endregion */
+
+/* Dynamic Active Effects */
+/* https://gitlab.com/tposney/dae */
+
+.app.sw5e .dnd5e.sheet.actor:not(.loot-sheet-npc):not(.sw5e),
+.app.sw5e .dnd5e.sheet.item:not(.sw5e) {
+    background: none;
+    border: none;
+}
