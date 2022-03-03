@@ -183,7 +183,7 @@ i.fa-caret-down::before {
 }
 
 #sidebar-tabs {
-    height: 135px;
+    height: 40px;
     /*border: 2px solid black;*/
     box-shadow: 0 0 6px inset rgba(0, 0, 0, 0.137);
     background-color: none;
