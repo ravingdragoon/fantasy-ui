@@ -61,12 +61,11 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position: fixed;
-    right: 5px;
-    top: 5px;
+    right: 0px;
+    top: 0px;
     width: 320px !important;
     height: 100%;
-    overflow: hidden;
-    margin: 0;
+    overflow: visible;
     border: 25px solid transparent;
     border-image-source: url("/modules/fantasy-ui/ui/img/panel1.webp");
     border-image-slice: 20 fill;
@@ -176,8 +175,8 @@ i.fa-caret-down::before {
 #sidebar #sidebar-tabs i.fa-comments {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/speechbubble.webp") !important;
-    width: 40px !important;
-    height: 40px !important;
+    width: 20px !important;
+    height: 20px !important;
     display: inline-block !important;
     background-position: center !important;
     background-size: cover !important;
